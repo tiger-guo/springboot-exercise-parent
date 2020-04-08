@@ -1,0 +1,8 @@
+spring:
+  # 数据库相关配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 这里加上后缀用来防止mysql乱码,serverTimezone=GMT%2b8设置时区
+    url: ENC(CR5bs/uIbfX3+YcD7p+uOI2M3VADZR7xOsobTISpcMRtp4TC00Zg/qfeCeoV6arCURK+tTBL06y/PYgpUKSPWLciuUOWZVf9bss5Ur0j3J9hNSNsTYaQvC0WAzKgEhYzaAduAwRg2IYZ65WCFFKFzyFKProvVoxk4XpFckL2tBsru8ajOuKUlUIS7qSR5NTWlo/DxCOhJpCPsrqTY+qCCg==)
+    username: ENC(d8W7qIDkNMMjVZ6E7pxaQw==)
+    password: ENC(F4B7DAKjqAcO6uNZA1QRyZVLxQJzbMtQ)
