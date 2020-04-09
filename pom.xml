@@ -5,6 +5,7 @@
 
     <groupId>com.springboot</groupId>
     <artifactId>exercise</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringBootParent</name>
     <description>SpringBoot exercise parent project</description>
@@ -12,6 +13,7 @@
     <!--  模块  -->
     <modules>
         <module>validation-and-exception-handler</module>
+        <module>java-junit</module>
     </modules>
 
     <parent>
