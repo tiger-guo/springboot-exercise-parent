@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.liuguohu</groupId>
-    <artifactId>validation-and-exception-handler</artifactId>
+    <artifactId>springboot-swagger</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>validation-and-exception-handler</name>
-    <description>参数校验和异常处理器</description>
+    <name>springboot-swagger</name>
+    <description>Swagger 接口文档生成</description>
 
     <parent>
         <groupId>com.springboot</groupId>
@@ -15,19 +15,17 @@
     </parent>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
         </dependency>
-
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.ulisesbocchio</groupId>
-            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
         </dependency>
     </dependencies>
+
 </project>
