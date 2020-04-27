@@ -14,7 +14,7 @@ public enum ResultCode {
 
     SUCCESS(1000, "操作成功！"),
 
-    FAILED(5001, "响应失败！"),
+    FAILED(5003, "响应失败！"),
 
     VALIDATE_FAILED(5002, "参数校验失败！"),
 

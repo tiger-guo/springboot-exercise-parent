@@ -16,7 +16,7 @@ public class APIException extends RuntimeException{
     private String msg;
 
     public APIException() {
-        this(1001, "接口错误");
+        this(5002, "接口错误");
     }
 
     public APIException(String msg) {
