@@ -12,13 +12,13 @@ import lombok.Getter;
 @Getter
 public enum ResultCode {
 
-    SUCCESS(1000, "操作成功"),
+    SUCCESS(1000, "操作成功！"),
 
-    FAILED(1001, "响应失败"),
+    FAILED(5001, "响应失败！"),
 
-    VALIDATE_FAILED(1002, "参数校验失败"),
+    VALIDATE_FAILED(5002, "参数校验失败！"),
 
-    ERROR(5000, "未知错误");
+    ERROR(5000, "处理请求出错！");
 
     private int code;
     private String msg;
